@@ -15,15 +15,16 @@ const Container = styled.div`
 const ItemContainer = styled.div`
   display: flex;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
   border: 1px solid black;
-  background: hsla(149, 17%, 84%, 0.5);
-  box-shadow: 12px 1px 20px 1px black;
+  background: hsla(149, 17%, 84%, 0.1);
+  box-shadow: 10px 5px 10px 1px #4c0013;
   font-weight: bold;
-  width: 400px;
+  height: 80px;
+  width: 300px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 `;
 
 const Header = styled.header`
@@ -36,8 +37,13 @@ const List = styled.ul`
 
 const Home = () => {
   const [lists, setLists] = useState(null);
+  // const [errorMessage, setErrorMessage] = useState('');
+  // const [loading, setLoading] = useState(false);
 
   useEffect(async () => {
+    // try {
+    // setLoading(true);
+    // setErrorMessage
     const newLists = await getLists();
     setLists(newLists);
   }, []);
@@ -63,7 +69,7 @@ const Home = () => {
                     handleDelete(list.id);
                   }}
                 >
-                  X
+                  ✖
                 </Button>
               </ItemContainer>
             </li>

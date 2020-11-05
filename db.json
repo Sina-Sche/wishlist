@@ -1,34 +1,57 @@
 {
   "lists": [
     {
-      "id": 1,
-      "title": "Sina",
-      "wishes": ["Beer", "Camera", "Book"]
-    },
-    {
-      "id": 2,
-      "title": "Leon",
-      "wishes": ["Beer"]
-    },
-    {
-      "id": 3,
-      "title": "Philipp",
-      "wishes": ["Beer"]
-    },
-    {
-      "id": 4,
-      "title": "Kathrin",
-      "wishes": ["Book"]
-    },
-    {
       "id": 5,
       "title": "Matthias",
-      "wishes": ["Beer"]
+      "wishes": ["Beer", "Socks", "Games"]
     },
     {
-      "title": "Sinas New List",
-      "wishes": ["Socken", "Kalender"],
-      "id": 6
+      "title": "Hannelore",
+      "wishes": ["Schuhe, Kohle"],
+      "id": 8
+    },
+    {
+      "title": "Jimmy",
+      "wishes": ["Desk, Kim, Money"],
+      "id": 10
+    },
+    {
+      "title": "Philipp",
+      "wishes": ["Beer, Socks, Games"],
+      "id": 11
+    },
+    {
+      "title": "Alexis",
+      "wishes": ["Eierlikör", " Gameboy", " Tetris"],
+      "id": 12
+    },
+    {
+      "title": "Dominique",
+      "id": 13
+    },
+    {
+      "title": "Jesse",
+      "id": 14
+    },
+    {
+      "title": "Willy",
+      "wishes": "abc, def, cde, fgh",
+      "id": 15
+    },
+    {
+      "title": "Walter",
+      "wishes": ["abc", " def", " cde", " fgh"],
+      "id": 16
+    },
+    {
+      "title": ["Manfred"],
+      "wishes": ["Bus", " Books", " Alcohol"],
+      "id": 19
+    },
+    {
+      "title": ["Franz"],
+      "wishes": ["Ferdinand", " Butter", " Milch"],
+      "id": 21
     }
   ]
 }

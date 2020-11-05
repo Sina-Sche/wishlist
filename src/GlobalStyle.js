@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import bg from './assets/bg.jpg';
+import bg from './assets/bg3.jpg';
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -24,8 +24,17 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
-  Link {
+a {
     text-decoration: none;
+    color: #4C0013;
+  &:hover{
+    color: white;
+  }};
+
+  div{ 
+    display: flex;
+    align-items: center;
+    justify-content:center;
   }
 `;
 

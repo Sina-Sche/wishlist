@@ -12,7 +12,7 @@ const FloatingActionButton = styled.button`
   background: hsla(149, 17%, 84%, 0.5);
   cursor: pointer;
   margin: 30px;
-  box-shadow: 2px 1px 10px 1px darkolivegreen;
+  box-shadow: 2px 1px 10px 1px #4c0013;
   width: 40px;
 `;
 

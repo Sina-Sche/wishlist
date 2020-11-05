@@ -54,7 +54,7 @@ const WishList = () => {
           handleDelete();
         }}
       >
-        X
+        ✖
       </Button>
     </Container>
   );
