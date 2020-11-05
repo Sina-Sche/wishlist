@@ -5,13 +5,15 @@ const FloatingActionButton = styled.button`
   bottom: 10px;
   right: 10px;
 
-  border-radius: 50%;
   border: none;
-  background: #ffd166;
-  color: #3e3e3e;
-  padding: 0;
-  line-height: 0;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1;
+  background: hsla(149, 17%, 84%, 0.5);
   cursor: pointer;
+  margin: 30px;
+  box-shadow: 2px 1px 10px 1px darkolivegreen;
+  width: 40px;
 `;
 
 export default FloatingActionButton;

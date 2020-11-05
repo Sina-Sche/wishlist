@@ -2,23 +2,33 @@
   "lists": [
     {
       "id": 1,
-      "title": "Philipp's List",
-      "items": ["Socken", "Koks"]
+      "title": "Sina",
+      "wishes": ["Beer", "Camera", "Book"]
     },
     {
       "id": 2,
-      "title": "Leon's List",
-      "items": ["Koks", "Socken"]
+      "title": "Leon",
+      "wishes": ["Beer"]
     },
     {
       "id": 3,
-      "title": "Caro's List",
-      "items": ["Bier", "Koks"]
+      "title": "Philipp",
+      "wishes": ["Beer"]
     },
     {
       "id": 4,
-      "title": "Opa's List",
-      "items": ["Koks"]
+      "title": "Kathrin",
+      "wishes": ["Book"]
+    },
+    {
+      "id": 5,
+      "title": "Matthias",
+      "wishes": ["Beer"]
+    },
+    {
+      "title": "Sinas New List",
+      "wishes": ["Socken", "Kalender"],
+      "id": 6
     }
   ]
 }
